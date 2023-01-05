@@ -1,0 +1,36 @@
+{
+  "name": "cards",
+  "version": "1.0.0",
+  "description": "Mock online marketplace to buy Magic Cards off of. Here my goal is to make a very professional, well-designed website.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "server": "node server.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reecevela/cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reecevela/cards/issues"
+  },
+  "homepage": "https://github.com/reecevela/cards#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-middleware": "^6.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "firebase": "^9.15.0",
+    "firebaseui": "^6.0.2"
+  }
+}
